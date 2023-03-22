@@ -8,14 +8,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: blue;
+  background-color:rgb(193, 188, 155);
 }
 
 img{
   max-width: 250px;
+  object-fit: cover;
 }
 .aboutmeitem{
-
+  align-self: center;
+  max-width: 275px;
+  max-height: 200px;
 }
 
 .mywork{
@@ -23,5 +26,5 @@ img{
 }
 
 .contactme{
-  background-color: white;
+  background-color: rgb(99, 150, 77);
 }
