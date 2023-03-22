@@ -12,17 +12,22 @@ body {
 }
 
 img{
-  max-width: 250px;
   object-fit: cover;
+  max-width: 250px;
 }
+
 .aboutmeitem{
+  max-width: 300px;
   align-self: center;
-  max-width: 275px;
-  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
 .mywork{
-  background-color: red;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(251, 218, 216);
 }
 
 .contactme{
