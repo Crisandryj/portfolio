@@ -5,7 +5,14 @@ body {
 }
 
 .aboutme{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: blue;
+}
+
+.aboutmeitem{
+
 }
 
 .mywork{
