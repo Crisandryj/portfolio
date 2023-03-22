@@ -1,3 +1,17 @@
 body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   background-color: powderblue;
+}
+
+.aboutme{
+  background-color: blue;
+}
+
+.mywork{
+  background-color: red;
+}
+
+.contactme{
+  background-color: white;
 }
