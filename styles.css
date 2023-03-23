@@ -1,7 +1,7 @@
 body {
   display: grid;
-  grid-template-rows: 1fr .1fr 1fr 1fr;
-  background-color: powderblue;
+  background-color: black;
+  grid-template-rows: 1fr 1fr 1fr;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -11,12 +11,13 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-grow: 1;
-  background-color:rgb(193, 188, 155);
+  background-color:rgb(104, 180, 252);
 }
 
 img{
   object-fit: cover;
-  max-width:400px;
+  max-height: 1000px;
+  max-width: 400px;
 }
 
 .aboutmeitem{
@@ -30,16 +31,21 @@ img{
 
 .mywork{
   display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.workitems{
+  display: flex;
   justify-content: center;
   gap: 10px 10px;
   flex-flow: row wrap;
-  background-color: rgb(251, 218, 216);
 }
-
 .workitem{
   border-style: solid;
 }
 
 .contactme{
-  background-color: rgb(99, 150, 77);
+  background-color: rgb(104, 180, 252);
 }
