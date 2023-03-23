@@ -10,17 +10,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-grow: 1;
   background-color:rgb(193, 188, 155);
 }
 
 img{
   object-fit: cover;
-  max-width:300px;
+  max-width:400px;
 }
 
 .aboutmeitem{
-  max-width: 300px;
   align-self: center;
+  min-height: 400px;
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   background-color: white;
