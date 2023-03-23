@@ -2,6 +2,8 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   background-color: powderblue;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .aboutme{
@@ -28,6 +30,10 @@ img{
   display: flex;
   flex-flow: row wrap;
   background-color: rgb(251, 218, 216);
+}
+
+.workitem{
+  border-style: solid;
 }
 
 .contactme{
