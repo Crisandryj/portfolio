@@ -1,7 +1,7 @@
 body {
   display: grid;
   background-color: black;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr .5fr;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -10,14 +10,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-grow: 1;
-  background-color:rgb(104, 180, 252);
+  background: linear-gradient(170deg, #013A6B 70%, white 30%);
+
 }
 
 img{
   object-fit: cover;
   max-height: 1000px;
   max-width: 400px;
+  filter: drop-shadow(10px 10px 10px black);
 }
 
 .aboutmeitem{
@@ -27,6 +28,7 @@ img{
   display: flex;
   flex-direction: column;
   background-color: white;
+  filter: drop-shadow(10px 10px 10px black);
 }
 
 .mywork{
@@ -34,24 +36,50 @@ img{
   align-content: center;
   flex-direction: column;
   background-color: white;
-  margin-bottom: 10px;
 }
 
-h1 {
-  margin:10px;
+.title{
+  margin-left: 100px;
 }
+
 .workitems{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px 10px;
-  margin: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
   flex-flow: row wrap;
-
 }
+
+
 .workitem{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   border-style: solid;
 }
+
+
+.workitem:nth-child(1) .headingcontainer{
+  background-color: rgb(202, 251, 168);
+}
+.workitem:nth-child(2) .headingcontainer{
+  background-color: rgb(187, 208, 58);
+}
+.workitem:nth-child(3) .headingcontainer{
+  background-color: rgb(222, 178, 23);
+}
+.workitem:nth-child(4) .headingcontainer{
+  background-color: rgb(89, 117, 171);
+}
+.workitem:nth-child(5) .headingcontainer{
+  background-color: rgb(38, 145, 116);
+}
+.workitem:nth-child(6) .headingcontainer{
+  background-color: rgb(8, 100, 120);
+}
+
 
 .contactme{
   background-color: rgb(104, 180, 252);
