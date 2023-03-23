@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr .1fr 1fr 1fr;
   background-color: powderblue;
   margin-left: 150px;
   margin-right: 150px;
@@ -15,7 +15,7 @@ body {
 
 img{
   object-fit: cover;
-  max-width: 250px;
+  max-width:300px;
 }
 
 .aboutmeitem{
@@ -28,6 +28,8 @@ img{
 
 .mywork{
   display: flex;
+  justify-content: center;
+  gap: 10px 10px;
   flex-flow: row wrap;
   background-color: rgb(251, 218, 216);
 }
