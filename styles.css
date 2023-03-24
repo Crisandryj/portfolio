@@ -32,55 +32,15 @@ img {
 
 .mywork {
   display: flex;
-  align-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   background-color: white;
 }
-
-.title {
-  margin-left: 100px;
+.project{
+  border-style: solid;
+  border-color: black;
 }
 
-.workitems {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  flex-flow: row wrap;
-}
-
-.workitem {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  filter: drop-shadow(5px 5px 5px black);
-}
-
-.workitem:nth-child(1) .headingcontainer {
-  background-color: rgb(202, 251, 168);
-}
-
-.workitem:nth-child(2) .headingcontainer {
-  background-color: rgb(187, 208, 58);
-}
-
-.workitem:nth-child(3) .headingcontainer {
-  background-color: rgb(222, 178, 23);
-}
-
-.workitem:nth-child(4) .headingcontainer {
-  background-color: rgb(89, 117, 171);
-}
-
-.workitem:nth-child(5) .headingcontainer {
-  background-color: rgb(38, 145, 116);
-}
-
-.workitem:nth-child(6) .headingcontainer {
-  background-color: rgb(8, 100, 120);
-}
 
 .contactme {
   background-color: rgb(104, 180, 252);
