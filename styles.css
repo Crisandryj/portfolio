@@ -31,14 +31,17 @@ img {
 }
 
 .mywork {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
   background-color: white;
+  gap: 15px;
+
 }
 .project{
   border-style: solid;
   border-color: black;
+  margin:15px;
 }
 
 
