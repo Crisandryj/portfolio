@@ -4,9 +4,11 @@ body {
   grid-template-rows: .5fr 1fr .5fr;
   margin-left: 150px;
   margin-right: 150px;
+  box-shadow: 2px 2px #888888;
 }
 
 .aboutme {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -19,7 +21,6 @@ img {
   max-width: 400px;
   filter: drop-shadow(10px 10px 10px black);
 }
-
 .aboutmeitem {
   align-self: center;
   min-height: 400px;
@@ -36,12 +37,20 @@ img {
   grid-template-rows: repeat(2,1fr);
   background-color: white;
   gap: 15px;
-
 }
+
 .project{
+  display: flex;
+  flex-direction: column;
   border-style: solid;
   border-color: black;
   margin:15px;
+  box-shadow: 2px 2px #888888;
+}
+
+.screenshot{
+  flex-basis: 60%;
+  background-color: gray;
 }
 
 
