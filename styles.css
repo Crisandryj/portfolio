@@ -5,6 +5,7 @@ body {
   margin-left: 150px;
   margin-right: 150px;
   box-shadow: 2px 2px #888888;
+  background: url(/img/cream_dust.png) repeat 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
