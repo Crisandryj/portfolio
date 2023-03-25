@@ -49,7 +49,8 @@ img {
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
   background-color: white;
-  gap: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .project{
@@ -59,7 +60,11 @@ img {
   border-color: black;
   margin:15px;
   box-shadow: 2px 2px #888888;
+  max-width: 200px;
+  max-height: 190px;
 }
+
+
 
 .screenshot{
   flex-basis: 60%;
