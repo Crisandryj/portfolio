@@ -4,12 +4,13 @@ body {
   grid-template-rows: .5fr 1fr .5fr;
   margin-left: 150px;
   margin-right: 150px;
-  box-shadow: 2px 2px #888888;
   background: url(/img/cream_dust.png) repeat 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Corben', Georgia, Times, serif;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 25px;
 }
 p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
@@ -20,6 +21,11 @@ p, div {
   flex-direction: row;
   justify-content: center;
   background: linear-gradient(170deg, #013A6B 70%, white 30%);
+}
+
+.icons{
+  align-self: flex-end;
+  margin-right: 10px;
 }
 
 img {
@@ -35,7 +41,7 @@ img {
   display: flex;
   flex-direction: column;
   background-color: white;
-  filter: drop-shadow(10px 10px 10px black);
+  box-shadow: 0 0 1em 1em #ccc;
 }
 
 .mywork {
@@ -62,5 +68,6 @@ img {
 
 
 .contactme {
-  background-color: rgb(104, 180, 252);
+  background-color: #013A6B;
+  color: white;
 }
