@@ -87,3 +87,13 @@ img {
   justify-self:center;
   align-self: center;
 }
+svg{
+  max-width: 25px;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  list-style-type: none;
+};
