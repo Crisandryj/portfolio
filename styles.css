@@ -1,16 +1,17 @@
 body {
   display: grid;
   background-color: black;
-  grid-template-rows: .5fr 1fr .5fr;
+  grid-template-rows: 1fr 1fr .5fr;
   margin-left: 150px;
   margin-right: 150px;
-  background: url(/img/cream_dust.png) repeat 0 0;
+  background: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Corben', Georgia, Times, serif;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 25px;
+    align-self: center;
 }
 p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
@@ -20,7 +21,7 @@ p, div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: linear-gradient(170deg, #013A6B 70%, white 30%);
+  background: linear-gradient(170deg, #022f55 70%, white 30%);
 }
 
 .icons{
@@ -30,8 +31,8 @@ p, div {
 
 img {
   object-fit: cover;
+  max-width: 500px;
   max-height: 1000px;
-  max-width: 400px;
   filter: drop-shadow(10px 10px 10px black);
 }
 .aboutmeitem {
@@ -46,11 +47,15 @@ img {
 
 .mywork {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: .1fr 1fr 1fr;
   background-color: white;
-  margin-right: 100px;
-  margin-left: 100px;
+  background: white;
+}
+
+.mywork h1{
+  grid-column-start: 1;
+  grid-column: span 2;
 }
 
 .project{
@@ -60,10 +65,9 @@ img {
   border-color: black;
   margin:15px;
   box-shadow: 2px 2px #888888;
-  max-width: 200px;
-  max-height: 190px;
+  max-width: 500px;
+  min-height: 500px;
 }
-
 
 
 .screenshot{
@@ -71,8 +75,15 @@ img {
   background-color: gray;
 }
 
-
 .contactme {
-  background-color: #013A6B;
+  display: flex;
+  flex-direction: column;
+  background-color: #022f55 ;
   color: white;
+}
+
+.item1{
+  max-width: 800px;
+  justify-self:center;
+  align-self: center;
 }
