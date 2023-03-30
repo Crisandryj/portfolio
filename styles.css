@@ -112,14 +112,12 @@ li{
       margin: 0px;
       grid-template-rows: .7fr .5fr .3fr;
     }
-
   .mywork {
     display: flex;
     flex-direction: column;
     background-color: white;
     background: white;
   }
-
   .project{
     display: flex;
     margin-left: 15px;
